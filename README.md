@@ -1,15 +1,43 @@
-# Ansh & Riley Full-Stack Template
+# Spinning Emoji Generator
 
-This is a full-stack template project for Software Composers to create  applications with AI.
+A Next.js application that creates animated GIFs featuring spinning emojis with orbital animations. Built with Three.js and React.
 
-## Getting started
-To create a new project, you go to `/paths`, choose from our list of Paths, and then use Cursor's Composer feature to quickly scaffold your project!
+## Features
 
-You can also edit the Path's prompt template to be whatever you like!
+- Create animated GIFs with spinning emojis
+- Customizable animation parameters (speed, size, rotation)
+- Multiple orbiting elements with different behaviors
+- Smooth animations with configurable frame rates
+- Easy to modify for different emoji themes (desert, cowboy, etc.)
 
-## Technologies used
-This doesn't really matter, but is useful for the AI to understand more about this project. We are using the following technologies
-- React with Next.js 14 App Router
-- TailwindCSS
-- Firebase Auth, Storage, and Database
-- Multiple AI endpoints including OpenAI, Anthropic, and Replicate using Vercel's AI SDK
+## Current Theme: Desert Scene
+
+The current version (v1) features a desert-themed animation with:
+- A central spinning cactus (🌵)
+- Orbiting desert elements (🦎, 🦂, 🌞)
+- Rotating tumbleweeds (🌾)
+
+## Tech Stack
+
+- Next.js 14 (App Router)
+- React
+- Three.js
+- TypeScript
+- Tailwind CSS
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## Usage
+
+Click the "Record GIF" button to generate a 3-second animated GIF of the current scene.
