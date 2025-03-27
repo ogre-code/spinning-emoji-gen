@@ -1,13 +1,9 @@
-import dynamic from 'next/dynamic';
-
-const FingerScene = dynamic(() => import('./components/FingerScene'), {
-  ssr: false
-});
+import SpinningEmojis from './components/SpinningEmojis';
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <FingerScene />
+      <SpinningEmojis />
     </main>
   );
 }
